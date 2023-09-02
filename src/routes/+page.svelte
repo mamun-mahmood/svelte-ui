@@ -1,25 +1,19 @@
-<div class="page-option">
-	<button>Layout</button>
-	<h1>/layout</h1>
-</div>
-<div class="page-option">
-	<button>Chart:</button>
-	<h1>/chart</h1>
-</div>
-<div class="page-option">
-	<button>Map:</button>
-	<h1>/map</h1>
-</div>
+<script>
+	import '../app.css';
+</script>
 
-<style>
-	.page-option {
-		display: flex;
-		align-items: center;
-		gap: 10px;
-	}
-	.page-option button {
-		width: 80px;
-		padding: 10px;
-		border-radius: 10px;
-	}
-</style>
+<div class="p-5">
+	<div class="mb-5">
+		<a href="/layout"
+			><button class="bg-slate-800 text-white p-2 rounded-lg">Layout: /layout</button></a
+		>
+	</div>
+	<div class="mb-5">
+		<a href="/chart"
+			><button class="bg-slate-800 text-white p-2 rounded-lg">Chart: /chart</button></a
+		>
+	</div>
+	<div class="mb-5">
+		<a href="/map"> <button class="bg-slate-800 text-white p-2 rounded-lg">Map: /map</button></a>
+	</div>
+</div>
