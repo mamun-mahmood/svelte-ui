@@ -1,38 +1,53 @@
-# create-svelte
+# Svelte Demo:
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a demo application of Svelte UI with Tailwind.
 
-## Creating a project
+![App Screen](./docs/images/Screenshot%20from%202023-09-03%2023-32-40.png)
+![App Screen](./docs/images/Screenshot%20from%202023-09-03%2023-32-48.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+<!-- live demo -->
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+[Live Demo](https://bluetrade.vercel.app/)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Table of Contents
 
-## Developing
+- [Introduction](#introduction)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Introduction
 
-```bash
-npm run dev
+A basic demo to start with Svelte
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Prerequisites
 
-## Building
+- Node.js (v14+)
+  -Javascript
 
-To create a production version of your app:
+## Installation
 
-```bash
-npm run build
-```
+1. Clone the repository:
 
-You can preview the production build with `npm run preview`.
+   ```bash
+   git clone https://github.com/mamun-mahmood/svelte-ui.git
+   cd svelte-ui
+   ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+2. Install dependencies:
+
+   ```bash
+   npm install
+   "if there's dependency conflict run"
+   npm install -f
+   ```
+
+3. Run the application:
+
+   ```bash
+   npm run dev
+   ```
