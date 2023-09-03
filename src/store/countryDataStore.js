@@ -29,3 +29,9 @@ export const countries = derived(apiData, ($apiData) => {
 	}
 	return [];
 });
+export const topPopulatedCountries = derived(countries, ($countries) => {
+	if ($countries) {
+		return $countries.sort((a, b) => b.population - a.population).slice(0, 10);
+	}
+	return [];
+});

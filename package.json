@@ -29,5 +29,9 @@
 		"vite": "^4.4.2",
 		"vitest": "^0.34.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-chartjs": "^3.0.0",
+		"chart.js": "^4.0.0"
+	}
 }

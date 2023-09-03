@@ -2,6 +2,7 @@
 	import '../../app.css';
 	import { onMount } from 'svelte';
 	import { apiData, countries } from '../../store/countryDataStore';
+	import Chart from './Chart.svelte';
 	onMount(async () => {
 		fetch('https://restcountries.com/v3.1/all')
 			.then((response) => response.json())
@@ -15,9 +16,9 @@
 	});
 </script>
 
-<div class="w-screen p-5">
+<div class="w-screen p-5 md:p-14 grid grid-cols-6 gap-5 bg-[#F4F7FF]">
 	<table
-		class="table-auto w-full border-separate border-slate-200 border-2 border-spacing-5 rounded-md"
+		class="table-auto w-full bg-white border-separate border-slate-200 border-2 border-spacing-5 rounded-md col-span-4"
 	>
 		<thead>
 			<tr>
@@ -52,4 +53,7 @@
 			{/each}
 		</tbody>
 	</table>
+	<div class="col-span-2">
+		<Chart />
+	</div>
 </div>
