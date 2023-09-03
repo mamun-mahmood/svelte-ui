@@ -9,7 +9,7 @@
 		<div class="bg-blue-400 hidden md:block row-span-2 col-span-6" />
 		<div class="bg-rose-100 col-span-6 row-span-3 md:hidden" />
 		<div
-			class="bg-yellow-100 col-span-6 md:col-span-4 row-span-3 md:row-span-4 flex items-center justify-center relative"
+			class="bg-yellow-100 col-span-6 md:col-span-4 row-span-3 md:row-span-4 flex items-center justify-center"
 		>
 			<div class="outer-square flex items-center justify-center">
 				<div class="inner-circle bg-yellow-100">
