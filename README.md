@@ -7,7 +7,7 @@ This is a demo application of Svelte UI with Tailwind.
 
 <!-- live demo -->
 
-[Live Demo](https://bluetrade.vercel.app/)
+[Live Demo](https://idyllic-mooncake-78e8a6.netlify.app/)
 
 ## Table of Contents
 
